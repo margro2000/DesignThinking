@@ -1,0 +1,11 @@
+.teamAvatar {
+	height: 100px;
+	margin-right: 2%;
+}
+.NameLogo {
+	margin-top: 20px;
+	color: white;
+	font-size: 30px;
+	display: inline-flex;
+	margin-right: 5%;
+}

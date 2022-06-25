@@ -1,0 +1,15 @@
+.survey {
+	align-items: flex-start;
+}
+
+p {
+	color: white;
+}
+
+Button {
+	margin-bottom: 10px;
+}
+
+.charText {
+	margin-bottom: 10px;
+}

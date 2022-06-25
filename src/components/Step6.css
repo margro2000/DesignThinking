@@ -1,0 +1,20 @@
+.allIdeas {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+.col {
+	display: flex;
+	flex-direction: column;
+}
+
+.IdeaBox {
+	width: 160px;
+	height: 160px;
+}
+
+.IdeaBox2 {
+	background-color: #AAF0D1;
+	width: 160px;
+	height: 160px;
+}

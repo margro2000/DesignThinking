@@ -1,0 +1,14 @@
+.TextBox {
+	display: block;
+	margin-left: 35%;
+	margin-top: 5%;
+	width: 30%;
+	height: 100px;
+	background-color: #FF6EFF;
+	border: 3px solid white;
+	border-radius: 5px;
+	color: black;
+	font-size: 30px;
+	text-transform: uppercase;
+	font: monospace;
+}
