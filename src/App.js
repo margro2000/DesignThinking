@@ -9,6 +9,7 @@ import {Route, BrowserRouter, Redirect} from "react-router-dom";
 import CreateSessionPage from './components/CreateSessionPage';
 import JoinSessionPage from './components/JoinSessionPage';
 import TeamFormation from './components/TeamFormation';
+import ComingSoonPage from './components/ComingSoonPage';
 import Sky from 'react-sky';
 import Step1 from './components/Step1';
 import Step2 from './components/Step2';
@@ -56,6 +57,7 @@ class App extends React.Component {
 	<Route path="/CreateSessionPage" component={CreateSessionPage}/>
 	<Route path="/JoinSessionPage" component={JoinSessionPage}/>
 	<Route path="/TeamFormation" component={TeamFormation}/>
+		<Route path="/ComingSoonPage" component={ComingSoonPage}/>
 	<Route path="/Step1" component={Step1}/>
 	<Route path="/Step2" component={Step2}/>
 	<Route path="/Step3" component={Step3}/>
