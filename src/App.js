@@ -49,7 +49,7 @@ class App extends React.Component {
 	<Route exact path="/">
     <Redirect to="/MainPage" />
 	</Route>
-	<Route path="/MainPage" component={MainPage}/>
+	<Route path="/ByDesign" component={MainPage}/>
 	<Route path="/CustomerDiscoverySession" component={CustomerDiscoverySession}/>
 	<Route path="/IdeateSession" component={IdeateSession}/>
 	<Route path="/PrototypingSession" component={PrototypingSession}/>
