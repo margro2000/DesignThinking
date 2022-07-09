@@ -4,7 +4,7 @@ function ComingSoonPage(props) {
 
 	return (
 <div className = "ComingSoonPage">
-
+	<PageTitle title="Coming Soon!"/>
 </div>
 );
 }
