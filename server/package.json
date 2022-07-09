@@ -4,7 +4,11 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+<<<<<<< HEAD
     "start": "nodemon server.js"
+=======
+    "start": "nodemon server.js",
+>>>>>>> e86a615622f9f8ea41a6125ea070950d67022908
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Margarita Groisman",
