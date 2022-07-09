@@ -46,13 +46,8 @@ class App extends React.Component {
   background={'black'} /* color of background */
 />
 	<BrowserRouter>
-	<Route exact path="/DesignThinking">
-    <Redirect to="/MainPage" />
-	</Route>
-	<Route exact path="/">
-		<Redirect to="/MainPage" />
-	</Route>
-	<Route path="/MainPage" component={MainPage}/>
+	<Route exact path="/DesignThinking"/>
+	<Route path="/DesignThinking" component={MainPage}/>
 	<Route path="/CustomerDiscoverySession" component={CustomerDiscoverySession}/>
 	<Route path="/IdeateSession" component={IdeateSession}/>
 	<Route path="/PrototypingSession" component={PrototypingSession}/>
