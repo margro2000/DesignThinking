@@ -1,5 +1,5 @@
 import React from 'react';
-import PageTitle from './PageTitle';
+
 function ComingSoonPage(props) {
 
 	return (
